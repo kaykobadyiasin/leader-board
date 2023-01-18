@@ -65,6 +65,7 @@ header{
 }
 .banner_main{
     padding: 30px;
+    padding-bottom: 42px;
     background-color: white;
     border-radius: 5px;
     margin-top: 40px;
@@ -108,6 +109,7 @@ header{
 }
 .top_blog h2{
     color: #562EFF;
+    font-size: 24px;
     font-weight: 500;
     margin-top: 30px;
     margin-bottom: 5px;
@@ -121,12 +123,12 @@ header{
 	display: flex;
 	align-items: center;
 	row-gap: 24px;
-	column-gap: 16px;
+	column-gap: 8px;
 	margin-top: 26px;
 }
 .blog_img{
     margin-right: 20px;
-    width: 117px;
+    width: 217px;
 }
 .blog_img img{
     width: 100%;
@@ -149,20 +151,30 @@ header{
 /* banner end  */
 
 /* course section start */
-.course_section{}
+.course_section{
+    margin-bottom: 30px;
+}
 .course_main{
+    margin-top: 21px;
     background-color: #fff;
     padding: 30px;
+    border-radius: 5px;
 }
-.course_main h2{}
+.course_main h2 {
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 24px;
+	color: #562EFF;
+}
 .courses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 24px;
+    grid-column-gap: 30px;
 }
 .course{
-    padding: 13px;
-    /* border: 1px solid #000000; */
+    padding: 15px;
+    border-radius: 25px;
     box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
 }
 .course_img{
@@ -171,8 +183,17 @@ header{
 .course_img img{
     width: 100%;
 }
-.course h4{}
-.course a{}
+.course h4 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.course a{
+    color: #ED6B4F;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
 
 .course_detail{
     display: flex;
@@ -186,9 +207,15 @@ header{
 .course_rating i{
     margin-right: 3px;
 }
+.yello{
+    color: #FFC014;
+}
+.grayc{
+    color: #AEAEAE;
+}
 .course_rating p{
-    margin-left: 5px;
-
+    margin-left: 10px;
+    color: #a2a2a2;
 }
 .course_dioration{
     display: flex;
@@ -199,10 +226,14 @@ header{
     border-radius: 50px;
     background-color: #FFE4E8;
 }
-.course_dioration i{
-    margin-right: 10px;
+.course_dioration i {
+	color: #FF4A60;
+	margin-right: 10px;
+	font-size: 20px;
 }
-.course_dioration p{}
+.course_dioration p{
+    color: #FF4A60;
+}
 /* course section end */
 
 

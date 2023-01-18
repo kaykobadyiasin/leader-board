@@ -1,0 +1,97 @@
+@media only screen and (max-width: 576px){
+    .container {
+        width: 95%;
+    }
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .top_player h2 {
+        margin-bottom: 30px;
+    }
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 576.99px) and (max-width: 768px){
+    .container {
+        width: 95%;
+    }
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .top_player h2 {
+        margin-bottom: 30px;
+    }
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    }
+}
+@media only screen and (min-width: 768.99px) and (max-width: 992px){
+    .container {
+        width: 95%;
+    }
+    .players {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .top_player h2 {
+        margin-bottom: 30px;
+    }
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .courses {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 5px;
+    }
+    
+}
+
+@media only screen and (min-width: 992.99px) and (max-width: 1200px){
+    .container {
+        width: 80%;
+    }
+    .players {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .top_player h2 {
+        margin-bottom: 30px;
+    }
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .courses {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+    }
+    
+}
+
+@media only screen and (min-width: 1200.99px) and (max-width: 1400px){
+    .container {
+        width: 80%;
+    }
+    .players {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .top_player h2 {
+        margin-bottom: 30px;
+    }
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .courses {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+    }
+    
+}
